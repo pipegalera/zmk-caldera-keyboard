@@ -30,7 +30,7 @@
             lower_layer {
                 bindings = <
 &trans     &trans      &trans     &trans     &trans     &trans                  &trans     &trans      &trans     &trans       &trans        &trans 
-&trans     &kp BSLH    &kp LBKT   &kp RBKT   &kp STAR   &kp GRAVE               &kp CARET  &kp LBKT    &kp RBKT   &kp DOLLAR   &kp PERCENT   &trans 
+&trans     &kp BSLH    &kp AMP   &kp RBKT   &kp STAR   &kp GRAVE               &kp CARET  &kp LBKT    &kp RBKT   &kp DOLLAR   &kp PERCENT   &trans 
 &trans     &kp PIPE    &kp UNDER  &kp MINUS  &kp APOS   &kp DQT                 &kp HASH   &kp LPAR    &kp RPAR   &kp EQUAL    &kp PLUS      &trans 
 &trans     &trans      &trans     &trans     &trans     &trans                  &kp AT     &kp EXCL    &kp COLON  &kp SEMI     &kp TILDE     &trans 
 &trans     &trans      &trans     &trans     &trans     &trans                  &trans     &trans      &trans     &trans       &trans        &trans 
