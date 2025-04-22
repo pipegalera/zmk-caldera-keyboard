@@ -30,10 +30,10 @@
             lower_layer {
                 bindings = <
 &trans   &trans     &trans      &trans     &trans     &trans                  &kp UNDERSCORE   &kp DOLLAR  &kp PERCENT        &kp SLASH  &kp BACKSLASH  &kp AMPERSAND 
-&trans   &trans     &kp K1      &kp K2     &kp K3     &trans                  &kp AT           &kp LBKT    &kp DOUBLE_QUOTES  &kp RBKT   &kp EQUAL      &kp GRAVE
-&trans   &trans     &kp K4      &kp K5     &kp K6     &kp K0                  &kp HASH         &kp LPAR    &kp SQT            &kp RPAR   &kp PLUS       &kp TILDE 
-&trans   &trans     &kp K7      &kp K8     &kp K9     &trans                  &kp EXCLAMATION  &kp LBRC    &kp ASTERISK       &kp RBRC   &kp MINUS      &kp PIPE
-&trans   &trans     &kp K10     &kp K11    &kp K12    &trans                  &trans           &trans      &trans             &trans     &trans         &trans 
+&trans   &trans     &kp F1      &kp F2     &kp F3     &trans                  &kp AT           &kp LBKT    &kp DOUBLE_QUOTES  &kp RBKT   &kp EQUAL      &kp GRAVE
+&trans   &trans     &kp F4      &kp F5     &kp F6     &kp K0                  &kp HASH         &kp LPAR    &kp SQT            &kp RPAR   &kp PLUS       &kp TILDE 
+&trans   &trans     &kp F7      &kp F8     &kp F9     &trans                  &kp EXCLAMATION  &kp LBRC    &kp ASTERISK       &kp RBRC   &kp MINUS      &kp PIPE
+&trans   &trans     &kp F10     &kp F11    &kp F12    &trans                  &trans           &trans      &trans             &trans     &trans         &trans 
                 >;
             };
             
