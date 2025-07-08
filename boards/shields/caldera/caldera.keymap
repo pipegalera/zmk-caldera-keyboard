@@ -2,7 +2,6 @@
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/bt.h>
-
 / {
     behaviors {
         td0: tap_dance_0 {
@@ -13,38 +12,43 @@
             bindings = <&kp LSHFT>, <&kp CAPS>;
         };
     };
-
     keymap {
-            compatible = "zmk,keymap";
-
-            default_layer {
-                bindings = <
+        compatible = "zmk,keymap";
+        default_layer {
+            bindings = <
 &kp ESC    &kp N1    &kp N2    &kp N3     &kp N4     &kp N5                 &kp N6     &kp N7    &kp N8     &kp N9    &kp N0    &kp DELETE
 &kp GRAVE  &kp Q     &kp W     &kp E      &kp R      &kp T                  &kp Y      &kp U     &kp I      &kp O     &kp P     &kp EQUAL
-&kp TAB    &kp A     &kp S     &kp D      &kp F      &kp G                  &kp H      &kp J     &kp K      &kp L     &kp SEMI  &kp MINUS
+&kp TAB    &kp A     &kp S     &kp D      &lt 1 F    &kp G                  &kp H      &lt 2 J   &kp K      &kp L     &kp SEMI  &kp MINUS
 &td0       &kp Z     &kp X     &kp C      &kp V      &kp B                  &kp N      &kp M     &kp COMMA  &kp DOT   &kp FSLH  &kp UNDER
-&kp LGUI   &kp LCTRL &kp BSLH  &kp LALT   &mo 1      &lt 1 SPACE            &kp RET    &mo 2     &kp BSPC   &kp RALT  &kp GLOBE &kp RSHFT
-                >;
-            };
-
-            lower_layer {
-                bindings = <
+&kp LGUI   &kp LCTRL &kp BSLH  &kp LALT   &mo 3      &kp SPACE              &kp RET    &mo BSPC  &kp BSPC   &kp RALT  &kp GLOBE &kp RSHFT
+            >;
+        };
+        layer_one {
+            bindings = <
 &trans   &trans     &trans      &trans     &trans     &trans            &trans           &trans      &trans             &trans     &trans         &trans
-&trans   &trans     &kp F1      &kp F2     &kp F3     &trans            &kp AT           &kp LBKT    &kp DOUBLE_QUOTES  &kp RBKT   &kp AMPERSAND  &kp DOLLAR
-&trans   &trans     &kp F4      &kp F5     &kp F6     &trans            &kp HASH         &kp LPAR    &kp SQT            &kp RPAR   &kp PLUS       &kp TILDE
-&trans   &trans     &kp F7      &kp F8     &kp F9     &trans            &kp EXCLAMATION  &kp LBRC    &kp ASTERISK       &kp RBRC   &kp PERCENT    &kp PIPE
-&trans   &trans     &kp F10     &kp F11    &kp F12    &trans            &trans           &trans      &trans             &trans     &trans         &trans
-                >;
-            };
-
-            raise_layer {
-                bindings = <
-&trans   &trans     &trans      &trans     &trans     &trans            &trans     &kp C_PREV  &kp C_PP       &kp C_NEXT     &trans         &trans
-&trans   &trans     &kp N1      &kp N2     &kp N3     &trans            &trans     &trans      &kp UP         &trans         &trans         &trans
-&trans   &trans     &kp N4      &kp N5     &kp N6     &kp N0            &kp HOME   &kp LEFT    &kp DOWN       &kp RIGHT      &kp END        &trans
-&trans   &trans     &kp N7      &kp N8     &kp N9     &trans            &trans     &trans      &trans         &trans         &trans         &trans
-&trans   &trans     &trans      &trans     &trans     &trans            &trans     &trans      &bt BT_SEL 0   &bt BT_SEL 1   &bt BT_SEL 2   &bt BT_CLR_ALL
-                >;
-            };
+&trans   &trans     &trans      &trans     &trans     &trans            &kp AT           &kp LBKT    &kp DOUBLE_QUOTES  &kp RBKT   &kp AMPERSAND  &kp DOLLAR
+&trans   &trans     &trans      &trans     &trans     &trans            &kp HASH         &kp LPAR    &kp SQT            &kp RPAR   &kp PLUS       &kp TILDE
+&trans   &trans     &trans      &trans     &trans     &trans            &kp EXCLAMATION  &kp LBRC    &kp ASTERISK       &kp RBRC   &kp PERCENT    &kp PIPE
+&trans   &trans     &trans      &trans     &trans     &trans            &trans           &trans      &trans             &trans     &trans         &trans
+            >;
+        };
+        layer_two {
+            bindings = <
+&trans   &trans     &trans      &trans     &trans     &trans            &trans   &trans     &trans      &trans     &trans     &trans
+&trans   &trans     &kp N1      &kp N2     &kp N3     &trans            &trans   &trans     &trans      &trans     &trans     &trans
+&trans   &trans     &kp N4      &kp N5     &kp N6     &kp N0            &trans   &trans     &trans      &trans     &trans     &trans
+&trans   &trans     &kp N7      &kp N8     &kp N9     &trans            &trans   &trans     &trans      &trans     &trans     &trans
+&trans   &trans     &trans      &trans     &trans     &trans            &trans   &trans     &trans      &trans     &trans     &trans
+            >;
+        };
+        layer_three {
+            bindings = <
+&trans   &trans     &trans      &trans     &trans      &trans            &trans     &trans      &trans         &trans         &trans         &trans
+&trans   &trans     &kp C_PREV  &kp C_PP   &kp C_NEXT  &trans            &trans     &trans      &kp UP         &trans         &trans         &trans
+&trans   &trans     &trans      &trans     &trans      &trans            &kp HOME   &kp LEFT    &kp DOWN       &kp RIGHT      &kp END        &trans
+&trans   &trans     &trans      &trans     &trans      &trans            &trans     &trans      &trans         &trans         &trans         &trans
+&trans   &trans     &trans      &trans     &trans      &trans            &trans     &trans      &bt BT_SEL 0   &bt BT_SEL 1   &bt BT_SEL 2   &bt BT_CLR_ALL
+            >;
+        };
     };
 };
