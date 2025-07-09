@@ -20,16 +20,16 @@
 &kp ESC    &kp Q     &kp W     &kp E      &kp R      &kp T                  &kp Y      &kp U     &kp I      &kp O     &kp P     &kp EQUAL
 &kp TAB    &kp A     &kp S     &kp D      &lt 1 F    &kp G                  &kp H      &kp J     &kp K      &kp L     &kp SEMI  &kp MINUS
 &td0       &kp Z     &kp X     &kp C      &kp V      &kp B                  &kp N      &kp M     &kp COMMA  &kp DOT   &kp FSLH  &kp UNDER
-&kp LGUI   &kp LCTRL &kp BSLH  &kp LALT   &kp BSPC   &kp SPACE              &lt 2 RET  &kp RSHFT &kp GLOBE  &kp RALT  &kp RSHFT &kp LCTRL
+&kp LCTRL  &kp LGUI  &kp BSLH  &kp LALT   &kp LSHFT  &kp SPACE              &lt 2 RET  &kp BSPC  &kp GLOBE  &kp RALT  &kp RSHFT &kp LCTRL
             >;
         };
         symbols_layer {
             bindings = <
-&trans   &trans       &trans      &trans      &trans     &trans            &trans           &trans      &trans             &trans     &trans         &trans
-&trans   &trans       &trans      &trans      &trans     &trans            &kp AT           &kp LBKT    &kp DOUBLE_QUOTES  &kp RBKT   &kp AMPERSAND  &kp DOLLAR
-&trans   &kp C_PREV   &kp C_PP    &kp C_NEXT  &trans     &trans            &kp HASH         &kp LPAR    &kp SQT            &kp RPAR   &kp PLUS       &kp TILDE
-&trans   &trans       &trans      &trans      &trans     &trans            &kp EXCLAMATION  &kp LBRC    &kp ASTERISK       &kp RBRC   &kp PERCENT    &kp PIPE
-&trans   &trans       &trans      &trans      &trans     &trans            &trans           &trans      &trans             &trans     &trans         &trans
+&trans   &trans       &trans        &trans       &trans     &trans            &trans           &trans      &trans             &trans     &trans         &trans
+&trans   &trans       &kp C_BRI_UP  &kp C_BRI_DN &trans     &trans            &kp AT           &kp LBKT    &kp DOUBLE_QUOTES  &kp RBKT   &kp AMPERSAND  &kp DOLLAR
+&trans   &kp C_PREV   &kp C_PP      &kp C_NEXT   &trans     &trans            &kp HASH         &kp LPAR    &kp SQT            &kp RPAR   &kp PLUS       &kp TILDE
+&trans   &trans       &trans        &trans       &trans     &trans            &kp EXCLAMATION  &kp LBRC    &kp ASTERISK       &kp RBRC   &kp PERCENT    &kp PIPE
+&trans   &trans       &trans        &trans       &trans     &trans            &trans           &trans      &trans             &trans     &trans         &trans
             >;
         };
         numbers_layer {
