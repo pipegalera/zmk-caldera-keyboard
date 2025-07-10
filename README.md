@@ -4,7 +4,7 @@
 
 [Caldera](https://christianselig.com/2024/07/caldera-keyboard/) is a very beautifully designed split keyboard by Christian Selig.
 
-It is also not the most ergonomic keyboard as it doesn't have a thumb cluster. I find that only the 2 bottom keys closest to the thumbs from the bottom row are comfortable to use so I assigned them the most used keys: `SHIFT`, `SPACE`, `RETURN`, and `BACKSPACE`.
+It is also not the most ergonomic keyboard as it doesn't have a thumb cluster. I find that only the 2 bottom keys closest to the thumbs from the bottom row are comfortable to use so I assigned them the most used keys: `BACKSPACE`, `SPACE`, `RETURN`, and `SYSTEM`.
 
 Having only 4 "thumb keys" makes that dedicating a single keys a layer very taxing, so I strongly recomend using zmk's [tap dance](https://zmk.dev/docs/keymaps/behaviors/tap-dance) and [hold tap](https://zmk.dev/docs/keymaps/behaviors/hold-tap) functionalities.
 
@@ -25,9 +25,9 @@ In my keymap:
 |------+------+-----+------+-------+------|      |-------+------+------+------+------+------|
 | TAB  |  A   |  S  |  D   | L1/F  |  G   |      |   H   |  J   |  K   |  L   |  ;   |  -   |
 |------+------+-----+------+-------+------|      |-------+------+------+------+------+------|
-|TD_SHF|  Z   |  X  |  C   |  V    |  B   |      |   N   |  M   |  ,   |  .   |  /   |  _   |
+|TD_SHF|  Z   |  X  |  C   |  V    |  B   |      |   N   |  M   |  ,   |  .   |  /   | RSHFT|
 |------+------+-----+------+-------+------|      |-------+------+------+------+------+------|
-| LCTRL| LGUI |  \  | LALT | LSHFT | SPACE|      |L2/RET | BSPC | RALT | GLOBE| RGUI | LCTRL|
+| LCTRL| LGUI |  \  | LALT | BSPC | SPACE |      |L2/RET | RGUI | RALT | GLOBE| RGUI | RCTRL|
 `-----------------------------------------'      '------------------------------------------'
 ```
 
