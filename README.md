@@ -1,5 +1,3 @@
-
-
 # Caldera keymap
 
 [Caldera](https://christianselig.com/2024/07/caldera-keyboard/) is a very beautifully designed split keyboard by Christian Selig.
@@ -13,7 +11,6 @@ In my keymap:
 - `LYR1/F` = Hold tap F (`&lt 1 F`): Layer 1 is activated when F holded.
 - `LYR2/RET` = Hold tap Enter (`&lt 2 RET`): Layer 2 is activated when F holded.
 - `TD_SHF` = Tap Dance: tap once Left Shift, tap twice for Caps Lock
-
 
 **Default Layer (Layer 0)**
 
