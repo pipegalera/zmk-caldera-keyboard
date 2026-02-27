@@ -62,20 +62,6 @@ In my keymap:
 
 ```
 
-## Idea behind the layers setup
+## [Why this layers setup?](https://gist.github.com/pipegalera/96ebbe37e71e2c9030cf3b9d0725b4fb)
 
-- Symbols layer
 
-Holding `F` makes all the symbols I need available on the right side and the few media controls I normally use on my left side next to `F`.
-
-This feels more comfortable that moving my right index finger to other key, as it is naturally resting on top of the `F` key. I don't feel any advantage of using both keyboard sides for symbols in this keyboard as there are plenty of keys in one side.
-
-I tried using `SPACE` as hold tap key, but it creates "chunky" typing experience. The `hold tap` creates a micro delay in the key that is mostly unperceivable unless you are tapping the key constantly, which is the case with `SPACE`.
-
-- Numbers and arrow layer
-
-Holding `ENTER` creates a numpad on my left side. I've never used a numpad in my life before, so I don't mind having it in at my left hand. For some OCD reason I like to have it ordered 1 to 9 instead of 9 to 1.
-
-It also creates arrow keys in `JKIL`, very close to the home row were the hand rest. They are arrow keys, not the `HJKL` directional movement keys as in vim fashion. `HOME` and `END` are in the left and right to the arrows to go all the way to the left and al the way to the right respectively.
-
-I tried using `J` as hold tap key for symmetry with the other hold key `F`, but then I wouldn't be able to use this layer for the arrow keys. Creating an extra layer to simply use `J` is overcompling things as holding `ENTER` is equally comfy.
